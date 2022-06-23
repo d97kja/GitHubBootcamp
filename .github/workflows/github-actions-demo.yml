@@ -6,10 +6,10 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - '15 6 * * SUN'
+    - cron: '15 6 * * SUN'
   workflow_dispatch:
     inputs:
-       environment:
+      environment:
         description: 'Environment to deploy to'
         type: environment
         required: true 
