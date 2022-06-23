@@ -15,7 +15,7 @@ on:
         required: true 
 jobs:
   Build:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
       - run: |
           echo "🎉 The job was triggered by event: ${{ github.event_name }}"
