@@ -1,19 +1,5 @@
 # Getting ready
 
-### Sequence diagram
-
-```mermaid
-sequenceDiagram
-    participant Me
-    participant You
-    Me->>You: Hello, how are you?
-    loop Self reflection
-        You->>You: How am I?
-    end
-    Note right of You: Say the truth? 🤔 
-    You-->>Me: Great!
-```
-
 
 > Note: If you are on windows and git was installed as part of another installation (i.e., Visual Studio), please download an up-to-date version and run the installer.
 > Make sure to configure an editor that you are familiar with and that you have a shell that works. If not, ask the trainer before the training starts!
