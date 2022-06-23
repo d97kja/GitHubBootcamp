@@ -19,4 +19,10 @@ jobs:
       - id: hdsj
         name: Output time set in the container
         run: echo "The time was ${{ steps.hello-action.outputs.time }} when the action said hello" 
+      - id: artifact
+        name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: Package
+          path: .
         
