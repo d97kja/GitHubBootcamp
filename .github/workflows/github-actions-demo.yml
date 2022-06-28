@@ -19,7 +19,8 @@ jobs:
     steps:
       - run: |
           echo "🎉 The job was triggered by event: ${{ github.event_name }}"
-          echo "🔎 Runner: ${{ toJSON(github) }} ."
+          echo "🔎 Runner: ${{ toJSON(runner) }} ."
+          echo "🔎 GitHub: ${{ toJSON(github) }} ."
           echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ."
           
       - uses: actions/checkout@v3.0.2
